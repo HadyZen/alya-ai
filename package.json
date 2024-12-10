@@ -1,0 +1,20 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "telegram bot by hady",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hady Zen",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "axios": "^1.7.9",
+    "debug": "^4.4.0",
+    "dotenv": "^16.0.3",
+    "telegraf": "^4.16.3"
+  }
+}
